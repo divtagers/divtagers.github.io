@@ -1,0 +1,124 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="description" content="">
+    <meta name="author" content="">
+    <link rel="shortcut icon" href="./img/favicon.ico">
+
+    <title>{{ page.title }} - {{ site.title }}</title>
+
+    <!-- Bootstrap core CSS -->
+    <link href="/css/bootstrap.3.1.1.css" rel="stylesheet">
+
+    <!-- Custom styles for this template -->
+    <link href="/css/main.css" rel="stylesheet">
+    <link href="/css/syntax.css" rel="stylesheet">
+
+    <!-- Just for debugging purposes. Don't actually copy this line! -->
+    <!--[if lt IE 9]><script src="../../assets/js/ie8-responsive-file-warning.js"></script><![endif]-->
+
+    <!-- HTML5 shim and Respond.js IE8 support of HTML5 elements and media queries -->
+    <!--[if lt IE 9]>
+      <script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
+      <script src="https://oss.maxcdn.com/libs/respond.js/1.4.2/respond.min.js"></script>
+    <![endif]-->
+  </head>
+
+  <body>
+
+    <!-- Fixed navbar -->
+    <div class="navbar navbar-default navbar-fixed-top" role="navigation">
+      <div class="container">
+        <div class="navbar-header">
+          <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse">
+            <span class="sr-only">Toggle navigation</span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+          </button>
+          <a class="navbar-brand" href="">{{ site.name }}</a>
+        </div>
+        <div class="navbar-collapse collapse">
+          <ul class="nav navbar-nav">
+            <li{% if page.type == 'home' %} class="active"{% endif %}><a href="/home">Home</a></li>
+            <li{% if page.type == 'about' %} class="active"{% endif %}><a href="/about">About</a></li>
+            <li{% if page.type == 'projects' %} class="active"{% endif %}><a href="/projects">Projects</a></li>
+            <li{% if page.type == 'library' %} class="active"{% endif %}><a href="/library">Projects</a></li>
+            <li{% if page.type == 'contact' %} class="active"{% endif %}><a href="/contact">Contact Us</a></li>
+          </ul>
+          <ul class="nav navbar-nav navbar-right">
+            <li><a href="https://www.facebook.com/divtagers" target="blank">Facebook</a></li>
+            <li><a href="https://twitter.com/divtagers" target="blank">Twitter</a></li>
+          </ul>
+        </div><!--/.nav-collapse -->
+      </div>
+    </div>
+
+    <div class="container">
+      <div id="content">
+        <!--WARNING-->
+        <!--do not modifying .lead-->
+        <!--it represent source title of ajax request-->
+      {{ content }}
+      </div>
+    </div> <!-- /container -->
+
+
+    <!-- Bootstrap core JavaScript
+    ================================================== -->
+    <!-- Placed at the end of the document so the pages load faster -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.0/jquery.min.js"></script>
+    <script src="/js/bootstrap.3.1.1.min.js"></script>
+    <script>
+      $(window).bind("popstate", function(e) {
+          change(e.originalEvent.state);
+      });
+
+      $('a').click(function (e) {
+        if (history.pushState) {
+          //stop default action for a
+          e.preventDefault();
+
+          //get link of a tag
+          var link = this.href;
+
+          //get data of page
+          $.get(link, function (data) {
+            if (data !== undefined || data !== '') {
+              $('#content').hide().html(data).fadeIn('fast', function () {
+                var title = $('#content > p.lead').text();
+                title = title + ' - {{ site.title }}';
+                window.history.pushState("", title, link);
+              });
+            } else {
+              window.location.href(link);
+            }
+          });
+
+        } else {
+          //do nothing
+        }
+      });
+
+      (function(original) { // overwrite history.pushState so that it also calls
+                            // the change function when called
+          history.pushState = function(state) {
+              change(state);
+              return original.apply(this, arguments);
+          };
+      })(history.pushState);
+    </script>    
+    <script>
+      (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+      (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+      m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+      })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
+
+      ga('create', 'UA-50514686-1', 'sejong.edu');
+      ga('send', 'pageview');
+    </script>
+  </body>
+</html>
