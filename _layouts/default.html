@@ -40,16 +40,18 @@
             <span class="icon-bar"></span>
             <span class="icon-bar"></span>
           </button>
-          <a class="navbar-brand pjax" href="">&lt;divtag&gt;</a>
+          <a class="navbar-brand pjax" href="/">&lt;divtag&gt;</a>
         </div>
 
         <div class="navbar-collapse collapse">
           <ul class="nav navbar-nav">
             <li{% if page.type == 'home' %} class="active"{% endif %}><a href="/" class="pjax">Home</a></li>
-            <li{% if page.type == 'about' %} class="active"{% endif %}><a href="/about" class="pjax">About</a></li>
-            <li{% if page.type == 'projects' %} class="active"{% endif %}><a href="/projects" class="pjax">Projects</a></li>
-            <li{% if page.type != 'home' && page.type != 'about' && page.type != 'projects' && page.type != 'contact' %} class="active"{% endif %}><a href="/library" class="pjax">Library</a></li>
-            <li{% if page.type == 'contact' %} class="active"{% endif %}><a href="/contact" class="pjax">Contact Us</a></li>
+            <li{% if page.type == 'about' %} class="active"{% endif %}><a href="/about.html" class="pjax">About</a></li>
+            <li{% if page.type == 'projects' %} class="active"{% endif %}><a href="/projects.html" class="pjax">Projects</a></li>
+
+            <li{% if page.type == 'library' %} class="active"{% endif %}><a href="/library.html" class="pjax">Library</a></li>
+
+            <li{% if page.type == 'contact' %} class="active"{% endif %}><a href="/contact.html" class="pjax">Contact Us</a></li>
           </ul>
           <ul class="nav navbar-nav navbar-right">
             <li><a href="https://www.facebook.com/divtagers" target="blank">Facebook</a></li>
@@ -72,9 +74,9 @@
 
     <div id="footer">
         <div class="container">
-          <p class="text-muted">&copy; 2014 &lt;divtag&gt; <span id="attributions">&nbsp;&nbsp;&nbsp; DNS Powered by <a href="http://dnsever.com" target="blank"><img src="./img/dnsever.gif" id="dnsever"></a> &nbsp;&nbsp;&nbsp; Site Powered by <a href="http://pages.github.com" target="blank"> <img src="./img/github.ico"> Github Pages</a> with <a href="http://jekyllrb.com" target="blank"><img src="./img/jekyll.ico" id="jekyllico">Jekyll</a></p></span>
-        </div>
+        <p class="text-muted">&copy; 2014 &lt;divtag&gt; <span id="attributions">&nbsp;&nbsp;&nbsp; DNS Powered by <a href="http://dnsever.com" target="blank"><img src="/img/dnsever.gif" id="dnsever"></a> &nbsp;&nbsp;&nbsp; Site Powered by <a href="http://pages.github.com" target="blank"> <img src="/img/github.ico"> Github Pages</a> with <a href="http://jekyllrb.com" target="blank"><img src="/img/jekyll.ico" id="jekyllico">Jekyll</a></span></p>
       </div>
+    </div>
     <!-- Bootstrap core JavaScript
     ================================================== -->
     <!-- Placed at the end of the document so the pages load faster -->
