@@ -49,6 +49,9 @@ code {
   #attributions {
     display: none;
   }
+  #content {
+    padding-top: 10px;
+  }
 }
 
 /* icon css */
