@@ -1,0 +1,14 @@
+---
+layout: default
+---
+<h2>{{ page.title }}</h2>
+
+<p>
+{{ content }}
+</p>
+
+{% if author != "" %}
+<p>@ {{ page.date | date_to_string }} by {{ page.author }}</p>
+{% else %}
+<p>@ {{ page.date | date_to_string }}</p>
+{% endif %}
