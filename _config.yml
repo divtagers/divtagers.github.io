@@ -1,4 +1,4 @@
-name: %<divtag%> Web Development Group
+name: <divtag> Web Development Group
 markdown: redcarpet
 pygments: true
 baseurl:

@@ -7,6 +7,8 @@ layout: default
 {{ content }}
 </p>
 
-{% if author === "" %}
+{% if author != "" %}
 <p>@ {{ page.date | date_to_string }} by {{ page.author }}</p>
+{% else %}
+<p>@ {{ page.date | date_to_string }}</p>
 {% endif %}
