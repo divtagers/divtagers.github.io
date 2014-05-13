@@ -59,6 +59,10 @@ code {
   height: 100%;
 }
 
+.main-cover {
+  margin-bottom: 20px;
+}
+
 @media (min-width: 641px) {
     .main-cover {
     width: 50%;
