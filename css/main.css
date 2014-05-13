@@ -7,7 +7,7 @@ html {
 body {
   /* Margin bottom by footer height */
   margin-bottom: 75px;
-  font-family: 'Helvetica Neue', 'Apple SD Gothic Neo', 'NanumBarunGothic', 'Malgun Gothic', dotum, 'Lucida Grande', sans-serif;
+  font-family: 'NanumBarunGothic', 'Malgun Gothic', 'Helvetica Neue', dotum, 'Lucida Grande', sans-serif;
 }
 #footer {
   position: absolute;
