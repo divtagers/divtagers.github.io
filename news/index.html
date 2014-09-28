@@ -1,0 +1,23 @@
+---
+layout: default
+title: news
+type: news
+---
+
+<p class="lead">news</p>
+<table class="table table-striped">
+	<thead>
+	    <tr>
+	        <th>Date</th>
+	        <th>Subject</th>
+	    </tr>
+	</thead>
+	<tbody>
+	    {% for post in site.posts %}
+	      	<tr>
+	      	  <td>{{ post.date | date_to_string }}</td>
+	      	  <td><a href="{{ post.url }}">{{ post.title }}</a></td>
+	      	</tr>
+	    {% endfor %}
+	</tbody>
+</table>

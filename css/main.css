@@ -10,11 +10,11 @@ body {
   font-family: 'NanumBarunGothic', 'Malgun Gothic', 'Helvetica Neue', dotum, 'Lucida Grande', sans-serif;
 }
 #footer {
-  position: absolute;
+  position: fixed;
   bottom: 0;
   width: 100%;
   /* Set the fixed height of the footer here */
-  height: 75px;
+  height: 68px;
   background-color: #f5f5f5;
 }
 
@@ -22,6 +22,11 @@ body {
 /* Custom page CSS
 -------------------------------------------------- */
 /* Not required for template or sticky footer method. */
+
+#logo {
+  font-family: aeroregular, sans-serif;
+  font-size: 35px;
+}
 
 body > .container {
   padding: 60px 15px 0;
@@ -46,30 +51,17 @@ code {
 /* mobile only CSS */
 
 @media (max-width: 640px) {
-  #attributions {
+  #footer {
     display: none;
   }
-  #content {
-    padding-top: 10px;
-  }
 }
 
-.cover {
-  width: 100%;
-  height: 100%;
+#slideshow {
+  position: relative;
 }
 
-.main-cover {
-  margin-bottom: 20px;
-}
-
-@media (min-width: 641px) {
-    .main-cover {
-    width: 50%;
-    height: 50%;
-    display: block;
-    margin: 0 auto 20px auto;
-  }
+#slide0, #slide1 {
+  position: absolute;
 }
 
 /* icon css */

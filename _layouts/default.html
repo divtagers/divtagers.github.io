@@ -19,6 +19,7 @@
 
     <!-- Custom styles for this template -->
     <link href="/css/main.css" rel="stylesheet">
+    <link href="/css/aero/style.css" rel="stylesheet">
     <link href="/css/syntax.css" rel="stylesheet">
 
     <!-- Just for debugging purposes. Don't actually copy this line! -->
@@ -44,21 +45,13 @@
             <span class="icon-bar"></span>
             <span class="icon-bar"></span>
           </button>
-          <a class="navbar-brand pjax" href="/"><img src="/img/logo.png" height="27"></a>
+          <a class="navbar-brand" id="logo" href="/"> &lt;divtag&gt;</a>
         </div>
 
         <div class="navbar-collapse collapse">
-          <ul class="nav navbar-nav">
-            <li{% if page.type == 'home' %} class="active"{% endif %}><a href="/" class="pjax">Home</a></li>
-            <li{% if page.type == 'about' %} class="active"{% endif %}><a href="/about.html" class="pjax">About</a></li>
-            <li{% if page.type == 'projects' %} class="active"{% endif %}><a href="/projects.html" class="pjax">Projects</a></li>
-            <li{% if page.type == 'library' %} class="active"{% endif %}><a href="/library.html" class="pjax">Library</a></li>
-            <li{% if page.type == 'join' %} class="active"{% endif %}><a href="/join.html" class="pjax">Join</a></li>
-            <li{% if page.type == 'contact' %} class="active"{% endif %}><a href="/contact.html" class="pjax">Contact Us</a></li>
-          </ul>
           <ul class="nav navbar-nav navbar-right">
-            <li><a href="https://www.facebook.com/divtagers" target="blank">Facebook</a></li>
-            <li><a href="https://twitter.com/divtagers" target="blank">Twitter</a></li>
+          <li{% if page.type == 'news' %} class="active"{% endif %}><a href="/news">News</a></li>
+          <li{% if page.type == 'contact' %} class="active"{% endif %}><a href="/contact">Contact Us</a></li>
           </ul>
         </div><!--/.nav-collapse -->
 
@@ -68,9 +61,6 @@
 
     <div class="container">
       <div id="content">
-        <!--WARNING-->
-        <!--do not modifying .lead-->
-        <!--it represent source title of ajax request-->
       {{ content }}
       </div>
     </div> <!-- /container -->
@@ -85,22 +75,14 @@
     <!-- Placed at the end of the document so the pages load faster -->
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.0/jquery.min.js"></script>
     <script src="/js/bootstrap.3.1.1.min.js"></script>
-    <!--<script src="ajaxLoad.js"></script>-->    
     {% if page.type == 'home' %}
-      <script>
-      /*
-      $(document).ready(function () {
-        var i = 2;
-        function nextSlide () {
-          var url = 'https://googledrive.com/host/0B6zrjQi0M8qZdjB0MHpBajVkb3M/cover/' + i + '.jpg';
-          $('.main-cover').fadeOut('slow').attr('src', url).fadeIn('slow', function () {
-            (i + 1 === 5) ? i = 1 : i++;
-          });
-        }
-      setInterval(nextSlide, 4500);
+    <script src="/js/slidejs.js"></script>
+    <script>
+      slidejs({
+        index: 5,
+        path: './img/slideshow/',
       });
-      */
-      </script>
+    </script>
     {% endif %}
     <script>
       (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){

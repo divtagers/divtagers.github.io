@@ -7,7 +7,7 @@ type: library
 author: "김희언"
 ---
 
-<img src="https://googledrive.com/host/0B6zrjQi0M8qZdjB0MHpBajVkb3M/conf/1.jpg" alt="sejong university" class="img-rounded cover">
+<img src="https://googledrive.com/host/0B6zrjQi0M8qZdjB0MHpBajVkb3M/conf/1.jpg" alt="sejong university" class="img-rounded cover img-responsive">
 
 divtag 개발자 모임의 목적은 프로그래밍에 관심있는 학생끼리 자인이 경험해본 기술을 공유함으로써 다양한 분야의 지식을 습득하고 소프트웨어 개발에 열정이 있는 사람들을 알아갈수 있는 자리입니다.
 

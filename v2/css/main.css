@@ -1,0 +1,33 @@
+a {
+  color: inherit; }
+
+body {
+  width: 670px;
+  margin: 0 auto;
+  background-color: #e7e7e7;
+  font-family: 'NanumBarunGothic', 'Malgun Gothic', 'Helvetica Neue', dotum, 'Lucida Grande', sans-serif; }
+
+#nav > ul {
+  list-style-type: none; }
+  #nav > ul li {
+    float: left; }
+    #nav > ul li img {
+      width: 180px;
+      margin-top: 3px; }
+    #nav > ul li p {
+      font-size: 27px;
+      margin: 3px 0 0 20px; }
+
+#main {
+  margin-top: 200px;
+  clear: both; }
+  #main #slideshow {
+    position: relative;
+    width: 500px;
+    height: 500px; }
+  #main #slide0, #main #slide1 {
+    position: absolute;
+    width: 500px;
+    height: 500px; }
+
+/*# sourceMappingURL=main.css.map */
