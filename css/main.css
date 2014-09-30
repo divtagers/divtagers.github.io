@@ -10,7 +10,7 @@ body {
   font-family: 'NanumBarunGothic', 'Malgun Gothic', 'Helvetica Neue', dotum, 'Lucida Grande', sans-serif;
 }
 #footer {
-  position: fixed;
+  position: absolute;
   bottom: 0;
   width: 100%;
   /* Set the fixed height of the footer here */
@@ -64,4 +64,21 @@ code {
 
 #jekyllico {
   margin: 0 -7px 0 -8px;
+}
+
+/* social */
+
+.fb-like {
+  margin: 22px 69px 0 0;
+  float: right;
+}
+
+/* slide style */
+
+#slideshow {
+  position: relative;
+}
+
+#slide0, #slide1 {
+  position: absolute;
 }
