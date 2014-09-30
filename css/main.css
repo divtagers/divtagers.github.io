@@ -56,14 +56,6 @@ code {
   }
 }
 
-#slideshow {
-  position: relative;
-}
-
-#slide0, #slide1 {
-  position: absolute;
-}
-
 /* icon css */
 
 #dnsever {
