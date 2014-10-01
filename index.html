@@ -6,25 +6,29 @@ type: home
 
 <div class="row">
   <div class="col-md-6">
-  	<p class="lead">세종대학교 웹 프로그래밍 동아리 &lt;divtag&gt;입니다!</p>
-  	<p>웹 프로그래밍에 열정을 가진 학생들이 모여서 실제 동작하는 서비스를 개발해보고, 그것을 통해 문제를 해결하며, 웹에 대해 더 널리 알리고, 연구하는 것을 목적으로 만들어진 모임입니다.</p> 
-  	<p>웹은 우리 세대에서 그 무엇보다도 빠르게 발전하고 있으며, 가장 미래가 밝은 분야입니다. 우리 학교에서 웹에 대해 관심을 가지고 있거나, 배우고 싶어하는 학생들을 찾고 있습니다. 웹 뿐만 아니라 다른 분야의 프로그래밍이라도 환영합니다.</p> 
-  	<p>저희가 하는 활동은 다음과 같습니다.</p> 
-  	<p>- 컴퓨터 공학과 학생을들의 기술공유를 위한 <b><a href="http://divtag.sejong.edu/conf/1">divtag 개발자 모임</a></b> 개최</p> 
+  	<p class="lead">Welcome to &lt;divtag&gt;! A leading computer research group in Sejong University.</p>
+  	<p> &lt;divtag&gt;는 컴퓨터와 관련된 다양한 이슈에 열정을 가진 학생들이 모여서 실제 동작하는 서비스를 개발해보고, 그것을 통해 문제를 해결하며, 연구하는 것을 목적으로 만들어진 모임입니다.</p> 
+  	<p>컴퓨터 분야는 우리 세대에서 그 무엇보다도 빠르게 발전하고 있으며, 미래에 가장 큰 영향을 미칠수 있는 분야중 하나입니다. 우리 학교에서 컴퓨터에 대해 관심을 가지고 있거나, 배우고 싶어하는 학생이 있다면 환영합니다.</p> 
     <p class="lead">News</p>
     <table class="table table-striped">
        <tbody>
-          {% for post in site.posts %}
+          {% for post in site.posts reversed limit:4 %}
               <tr>
                 <td>{{ post.date | date_to_string }}</td>
                 <td><a href="{{ post.url }}">{{ post.title }}</a></td>
               </tr>
           {% endfor %}
+          <tr>
+            <td></td>
+            <td><a href="/news">See More</a></td>
+          </tr>
       </tbody>
     </table>
+    <p class="lead">Also</p>
 
   </div>
-  <div class="col-md-6">
+
+  <div class="col-md-6" style="position: relative">
   	<div id="slideshow">
   		<img src="./img/slideshow/1.jpg" id="slide1" class="img-responsive">
   		<img src="./img/slideshow/0.jpg" id="slide0" class="img-responsive">

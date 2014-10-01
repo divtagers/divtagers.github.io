@@ -21,6 +21,8 @@ divtag 개발자 모임은 세종대학교 웹 프로그래밍 동아리인 divt
 
 <a href="../static/events/divtag-october-2014.ics">내 캘린더에 이벤트 저장하기</a>
 
+<iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3163.1378411895407!2d127.07404389999999!3d37.55181610000001!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x357ca4d04ef3d389%3A0x322585c169b1b2bf!2z7ISc7Jq47Yq567OE7IucIOq1sOyekOuPmSDshLjsooXrjIDtlZnqtZAg7Jyo6rOh6rSA!5e0!3m2!1sen!2skr!4v1412131606053" width="600" height="450" frameborder="0" style="border:0"></iframe>
+
 ###행사 순서
 
 6시 00분 - 6시 05분 : 입장
