@@ -73,13 +73,3 @@ code {
   margin: 22px 69px 0 0;
   float: right;
 }
-
-/* slide style */
-
-#slideshow {
-  position: relative;
-}
-
-#slide0, #slide1 {
-  position: absolute;
-}
