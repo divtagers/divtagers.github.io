@@ -51,7 +51,7 @@ code {
 
 /* mobile only CSS */
 
-@media (max-width: 640px) {
+@media (max-width: 991px) {
   #footer {
     display: none;
   }
@@ -72,4 +72,29 @@ code {
 .fb-like {
   margin: 22px 69px 0 0;
   float: right;
+}
+
+/*slideshow div*/
+.slideshow-div {
+  height: 560px;
+}
+
+@media (max-width: 991px) {
+  .slideshow-div {
+    height: auto;
+  }
+
+}
+
+/*speakerdeck*/
+
+.speakerdeck {
+  width: 45%;
+}
+
+@media (max-width: 991px) {
+  .speakerdeck {
+    width: auto;
+  }
+
 }
