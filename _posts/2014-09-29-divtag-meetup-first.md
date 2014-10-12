@@ -21,9 +21,7 @@ divtag 개발자 모임의 목적은 프로그래밍에 관심있는 학생들�
 
 [Node.js](http://nodejs.org)는 그 정의에도 Scalable한 Network Application을 만드는데 강점을 가지고 있고 합니다. 이러한 WAS용도로 Node.js를 사용하지 않고 다양하게 가지고 놀아본 이야기를 해볼 생각입니다.
 
-<div class="speakerdeck">
 <script async class="speakerdeck-embed" data-id="6b174fc031e9013211287e9517789f50" data-ratio="1.78086956521739" src="//speakerdeck.com/assets/embed.js"></script>
-</div>
 
 <br>
 <br>
@@ -32,9 +30,7 @@ divtag 개발자 모임의 목적은 프로그래밍에 관심있는 학생들�
 
 Node.js의 등장으로 JavaScript를 사용하여 복잡한 Business Logic을 작성할때 나타나는 문제점중 하나인 [Callback Hell](http://callbackhell.com)을 [Promise](http://promisejs.org)기법을 통해 해결하는 방법을 공유해볼 생각입니다. 더불어 JavaScript가 Callback을 사용하게된 이유와 Node.js의 구조에 대해서도 간단하게 이야기를 나누어볼 생각입니다.
 
-<div class="speakerdeck">
 <script async class="speakerdeck-embed" data-id="3065bdc031de013211287e9517789f50" data-ratio="1.33333333333333" src="//speakerdeck.com/assets/embed.js"></script>
-<div>
 
 <br>
 <br>
