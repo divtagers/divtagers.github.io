@@ -61,6 +61,7 @@
         <div class="navbar-collapse collapse">
           <ul class="nav navbar-nav navbar-right">
           <li{% if page.type == 'news' %} class="active"{% endif %}><a href="/news">News</a></li>
+          <li{% if page.type == 'gallery' %} class="active"{% endif %}><a href="/gallery">Gallery</a></li>
           <li{% if page.type == 'history' %} class="active"{% endif %}><a href="/history">History</a></li>
           <li{% if page.type == 'contact' %} class="active"{% endif %}><a href="/contact">Contact Us</a></li>
           </ul>
@@ -89,16 +90,22 @@
     <!-- Placed at the end of the document so the pages load faster -->
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.0/jquery.min.js"></script>
     <script src="/js/bootstrap.3.1.1.min.js"></script>
+
     {% if page.type == 'home' %}
     <script src="/js/slidejs.min.js"></script>
     <script>
       slidejs({
-        index: 35,
+        index: {{ site.slideLength }},
         path: './img/slideshow/',
         reverse: true
       });
     </script>
     {% endif %}
+
+    {% if page.type == 'view' %}
+    <script src="/js/view.js"></script>
+    {% endif %}
+
     <script>
       (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
       (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),

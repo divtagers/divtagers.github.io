@@ -1,0 +1,14 @@
+---
+layout: default
+title: gallery
+type: gallery
+---
+
+<p class="lead">gallery</p>
+<div>
+	<div class="row" style="margin: 0 auto;">
+		{% for i in ({{0..site.slideLength}}) %}
+				<a href="/gallery/view/?n={{ i }}"><img src="/img/slideshow/{{ i }}.jpg" class="gallery"></a>
+		{% endfor %}
+	</div>
+</div>
