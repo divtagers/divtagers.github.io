@@ -8,7 +8,7 @@ layout: default
 </p>
 
 {% if author != "" %}
-<p>@ {{ post.date | date: "%b %d, %Y" }} by {{ page.author }}</p>
+<p>@ {{ page.date | date: "%b %d, %Y" }} by {{ page.author }}</p>
 {% else %}
-<p>@ {{ post.date | date: "%b %d, %Y" }}</p>
+<p>@ {{ page.date | date: "%b %d, %Y" }}</p>
 {% endif %}
