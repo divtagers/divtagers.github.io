@@ -101,3 +101,14 @@ code {
   }
 
 }
+
+.poster {
+  width: 50%;
+}
+
+@media (max-width: 991px) {
+  .poster {
+    width: 100%;
+  }
+
+}
