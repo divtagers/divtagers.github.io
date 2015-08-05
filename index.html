@@ -7,20 +7,39 @@ type: home
 <div class="row">
   <div class="col-md-6">
   	<p class="lead">Welcome to <span class="divtag" style="font-size: 23px;">&lt;divtag&gt;</span>! Computer Research Group in Sejong University.</p>
-  	<p> &lt;divtag&gt;는 컴퓨터와 관련된 분야에 관심을 가진 학생들이 모여 연구, 개발을 하기 위한 목적으로 만들어진 모임입니다.</p> 
-  	<p>컴퓨터 분야는 우리 세대에서 그 무엇보다도 빠르게 발전하고 있으며, 미래에 가장 큰 영향을 미칠 수 있는 분야 중 하나입니다. 우리 학교에서 컴퓨터 분야의 연구, 개발에 관심이 있는 학생이 있다면 환영합니다.</p> 
+  	<p><span class="divtag">&lt;divtag&gt;</span>는 컴퓨터와 관련된 분야에 관심을 가진 학생들이 모여 연구, 개발을 하기 위한 목적으로 만들어진 동아리입니다.</p> 
+  	<p>컴퓨터 분야는 우리 세대에서 그 무엇보다도 빠르게 발전하고 있으며, 미래에 가장 큰 영향을 미칠 수 있는 분야 중 하나입니다. 우리 학교에서 컴퓨터 분야의 연구, 개발에 관심이 있는 학생이 있다면 환영합니다.</p>
     <p class="lead">News</p>
     <table class="table table-striped">
        <tbody>
-          {% for post in site.posts limit:5 %}
+          {% for post in site.posts limit:3 %}
+            {% unless post.category %}
               <tr>
                 <td>{{ post.date | date: "%b %d, %Y" }}</td>
                 <td><a href="{{ post.url }}">{{ post.title }}</a></td>
               </tr>
+            {% endunless %}
           {% endfor %}
           <tr>
             <td></td>
             <td><a href="/news">See More</a></td>
+          </tr>
+      </tbody>
+    </table>
+    <p class="lead">Opinions</p>
+    <table class="table table-striped">
+       <tbody>
+          {% for post in site.posts limit:3 %}
+            {% if post.category == 'opinion' %}
+              <tr>
+                <td>{{ post.date | date: "%b %d, %Y" }}</td>
+                <td><a href="{{ post.url }}">{{ post.title }}</a></td>
+              </tr>
+            {% endif %}
+          {% endfor %}
+          <tr>
+            <td></td>
+            <td><a href="/opinions">See More</a></td>
           </tr>
       </tbody>
     </table>

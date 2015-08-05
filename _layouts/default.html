@@ -61,6 +61,7 @@
         <div class="navbar-collapse collapse">
           <ul class="nav navbar-nav navbar-right">
           <li{% if page.type == 'news' %} class="active"{% endif %}><a href="/news">News</a></li>
+          <li{% if page.type == 'opinions' %} class="active"{% endif %}><a href="/opinions">Opinions</a></li>
           <li{% if page.type == 'gallery' %} class="active"{% endif %}><a href="/gallery">Gallery</a></li>
           <li{% if page.type == 'history' %} class="active"{% endif %}><a href="/history">History</a></li>
           <li{% if page.type == 'contact' %} class="active"{% endif %}><a href="/contact">Contact Us</a></li>
@@ -88,7 +89,7 @@
     <!-- Bootstrap core JavaScript
     ================================================== -->
     <!-- Placed at the end of the document so the pages load faster -->
-    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.0/jquery.min.js"></script>
+    <script src="/js/jquery.min.js"></script>
     <script src="/js/bootstrap.3.1.1.min.js"></script>
 
     {% if page.type == 'home' %}
