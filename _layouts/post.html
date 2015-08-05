@@ -1,14 +1,19 @@
 ---
 layout: default
 ---
-<h2>{{ page.title }}</h2>
-
+<h2>
+	{% if page.style-title-divtag == true %}
+		<span class="divtag">{{ page.title }}</span>
+	{% else %}
+		{{ page.title }}
+	{% endif %}
+</h2>
 <p>
 {{ content }}
 </p>
 
 {% if author != "" %}
-<p>@ {{ page.date | date: "%b %d, %Y" }} by {{ page.author }}</p>
-{% else %}
-<p>@ {{ page.date | date: "%b %d, %Y" }}</p>
+	<p>@ {{ page.date | date: "%b %d, %Y" }} by {{ page.author }}</p>
+	{% else %}
+	<p>@ {{ page.date | date: "%b %d, %Y" }}</p>
 {% endif %}
