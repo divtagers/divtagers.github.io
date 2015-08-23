@@ -16,24 +16,19 @@ divtag 개발자 모임의 목적은 프로그래밍에 관심있는 학생들�
 
 <table class="table table-striped">
 <thead>
-    <tr>
-        <th>Speaker</th>
-        <th>Subject</th>
-        <th>Description</th>
-    </tr>
 </thead>
 <tbody>
     <tr>
-        <td>김희언</td>
-        <td>JavaScript&nbsp;Web&nbsp;Applications</td>
-        <td>
-        In this talk I will share key concepts of modern web applications with latest client and server side JavaScript technologies for creating high quality web applications to solve appropriate problem in various domain.<br><br>
-        - Introduction<br>
+    <td>
+        <p class="lead">JavaScript Web Applications</p>
+        <p>In this talk I will share key concepts of modern web applications with latest client and server side JavaScript technologies for creating high quality web applications to solve appropriate problem in various domain.<br><br>
         - Server Side JavaScript<br>
         - Backend Design Pattern<br>
         - Client Side JavaScript<br>
         - Single Page Applications<br>
-        - Dependency Management<br>
+        - Dependency Management<br><br>
+        by Hiun Kim <i class="text-muted">Computer Science Department, Sejong University</i>
+        </p>
 </td>
     </tr>
 </tbody>
