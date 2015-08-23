@@ -8,9 +8,9 @@ author: "hiun"
 ---
 <img src="../img/post/second-meetup.jpg" alt="first meetup" class="img-responsive img-rounded" style="width: 100%">
 
-divtag 개발자 모임의 목적은 프로그래밍에 관심있는 학생들이 경험해본 기술과 만든 제품을 공유하고 소개하여 다양한 분야의 지식을 습득하고 소프트웨어 개발에 관심이 있는 사람들을 만날 수 있는 모임을 목표로 하고있습니다.
+소프트웨어 개발에 관심있는 학생들이 자신이 경험한 기술을 공유하고, 그것으로 만든 제품을 소개하며, 다양한 분야의 지식을 습득을 위한 관계자들의 모임을 목표로 하는 'divtag 개발자 모임' 입니다.
 
-지난해 10월 최초로 [제 1회 모임](/first-meetup)을 진행하였으며, 앞으로도 더욱 심오한 기술적 지식을 공유하는장이 되었으면 합니다.
+지난해 10월 최초로 [제 1회 divtag 개발자 모임](/first-meetup)을 개최하였으며, 앞으로도 더욱 심오한 기술적 지식을 공유하 outlier들의 장이 되었으면 합니다.
 
 ###발표 주제
 
@@ -20,14 +20,13 @@ divtag 개발자 모임의 목적은 프로그래밍에 관심있는 학생들�
 <tbody>
     <tr>
     <td>
-        <p class="lead">JavaScript Web Applications</p>
-        <p>In this talk I will share key concepts of modern web applications with latest client and server side JavaScript technologies for creating high quality web applications to solve appropriate problem in various domain.<br><br>
-        - Server Side JavaScript<br>
-        - Backend Design Pattern<br>
-        - Client Side JavaScript<br>
-        - Single Page Applications<br>
-        - Dependency Management<br><br>
-        by Hiun Kim <i class="text-muted">Computer Science Department, Sejong University</i>
+        <p>
+            <span class="lead">JavaScript Web Applications</span>&nbsp;&nbsp;by Hiun Kim <i class="text-muted">Computer Science Department, Sejong University</i></span>
+        </p>
+        <p>
+        In this talk I will share key concepts of modern web applications with latest client and server side JavaScript technologies for creating high quality web applications.</p>
+        <p>
+        More specifically, I will handle topics such as Server Side JavaScript, Backend Design Pattern, Client Side JavaScript, Single Page Applications and Dependency Management.
         </p>
 </td>
     </tr>
@@ -37,7 +36,7 @@ divtag 개발자 모임의 목적은 프로그래밍에 관심있는 학생들�
 
 ###일시및 장소
 
-2015년 9월 30일 수요일 / 늦은 6시 / 세종대학교 율곡관 201호 (추후 확정 예정입니다.)
+추후 확정 예정입니다.
 
 <a href="../static/events/divtag-september-2015.ics"><button type="button" class="btn btn-info">내 캘린더에 이벤트 저장하기</button></a>
 
