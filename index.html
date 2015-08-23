@@ -12,13 +12,11 @@ type: home
     <p class="lead">News</p>
     <table class="table table-striped">
        <tbody>
-          {% for post in site.posts limit:3 %}
-            {% unless post.category %}
+          {% for post in site.categories.post limit:3 %}
               <tr>
                 <td>{{ post.date | date: "%b %d, %Y" }}</td>
                 <td><a href="{{ post.url }}">{{ post.title }}</a></td>
               </tr>
-            {% endunless %}
           {% endfor %}
           <tr>
             <td></td>
@@ -29,13 +27,11 @@ type: home
     <p class="lead">Opinions</p>
     <table class="table table-striped">
        <tbody>
-          {% for post in site.posts limit:3 %}
-            {% if post.category == 'opinion' %}
+          {% for post in site.categories.opinion limit:3 %}
               <tr>
                 <td>{{ post.date | date: "%b %d, %Y" }}</td>
                 <td><a href="{{ post.url }}">{{ post.title }}</a></td>
               </tr>
-            {% endif %}
           {% endfor %}
           <tr>
             <td></td>

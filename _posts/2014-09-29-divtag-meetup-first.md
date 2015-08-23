@@ -3,6 +3,7 @@ layout: post
 title:  "제 1회 divtag 개발자 모임"
 date:   2014-09-29 01:29:10
 permalink: /first-meetup
+categories: "post"
 author: "hiun"
 ---
 

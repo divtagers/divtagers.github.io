@@ -4,7 +4,7 @@ title:  "An Open Letter to Divtagers"
 date:   2015-08-05 00:02:05
 permalink: /an-open-letter-to-divtagers
 author: "hiun"
-category: "opinion"
+categories: "opinion"
 style-title-divtag: true
 ---
 <br>
