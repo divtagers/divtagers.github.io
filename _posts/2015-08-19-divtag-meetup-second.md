@@ -1,11 +1,22 @@
 ---
 layout: post
-title:  "제 2회 divtag 개발자 모임"
+title:  "[Call for Speakers] 제 2회 divtag 개발자 모임"
 date:   2015-08-19 01:29:10
 permalink: /second-meetup
 categories: "post"
 author: "hiun"
 ---
+<br>
+<div class="panel panel-primary">
+      <div class="panel-heading">
+        <h3 class="panel-title">Call for Speakers</h3>
+      </div>
+      <div class="panel-body">
+        <b>삽질기를 공유해 주실 분을 찾습니다.</b> 각 분야가 고도로 전문화되고, 새로운 언어와 기술, 향상된 프레임워크들이 범람하는 현 시대에, 일반적으로 하지 않은 시도들은 공유하는것 자체만으로 의미가 있다고 생각합니다. 또 그러한 outlier들간의 만남과 대화는 모두의 역량을 제고하고, 추후 새로운것을 시도하기 위한 ice breaking의 장의 될수 있을것이라 생각합니다. 공유하고 싶은 내용이 있다면 페이지 하단 이메일로 보내주시기 바랍니다.
+      </div>
+    </div>
+</div>
+<br>
 <img src="../img/post/second-meetup.jpg" alt="first meetup" class="img-responsive img-rounded" style="width: 100%">
 
 소프트웨어 개발에 관심있는 학생들이 자신이 경험한 기술을 공유하고, 그것으로 만든 제품을 소개하며, 다양한 분야의 지식을 습득을 위한 관계자들의 모임을 목표로 하는 'divtag 개발자 모임' 입니다.
@@ -36,7 +47,7 @@ author: "hiun"
 
 ###일시및 장소
 
-추후 확정 예정입니다.
+2015년 11월 12일 목요일 / 늦은 6시 30분 / 세종대학교 율곡관 201호
 
 <a href="../static/events/divtag-september-2015.ics"><button type="button" class="btn btn-info">내 캘린더에 이벤트 저장하기</button></a>
 
