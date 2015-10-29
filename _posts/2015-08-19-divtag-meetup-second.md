@@ -30,16 +30,27 @@ author: "hiun"
 </thead>
 <tbody>
     <tr>
-    <td>
-        <p>
-            <span class="lead">JavaScript Web Applications</span>&nbsp;&nbsp;by Hiun Kim <i class="text-muted">Computer Science Department, Sejong University</i></span>
-        </p>
-        <p>
-        In this talk I will share key concepts of modern web applications with latest client and server side JavaScript technologies for creating high quality web applications.</p>
-        <p>
-        More specifically, I will handle topics such as Server Side JavaScript, Backend Design Pattern, Client Side JavaScript, Single Page Applications and Dependency Management.
-        </p>
-</td>
+      <td>
+          <p>
+              <span class="lead">JavaScript Web Applications</span>&nbsp;&nbsp;by 김희언님 <i class="text-muted">Sophomore in Computer Science Department, Sejong University</i></span>
+          </p>
+          <p>
+          모던 웹은 stateless한 HTTP상의 클라언트 서버 모델을 기반으로 점점 더 애플리케이션의 형태를 띄며 전통적으로 데스크탑의 영역이라 여겨졌던 오피스를 비롯하여 게임등을 침범하고 있는것은 어제 오늘 일이 아닙니다. 또한 Gmail, Facebook이나 Twitter와 같은 웹서비스는 그 자체로 애플리케이션이라 부를정도로 풍부한 기능을 담아 과거 데스크탑 클라이언트에서만 가능했던 일들을 웹에서 진행하고 있습니다.
+          </p>
+          <p>
+          본 발표에서는 위에서 서비스들의 공통점인 JavaScript를 이용한 Single Page Application에 구조에 대해 살펴보고, Client-side JavaScript에서의 HTML랜더링 관리를 위해 React Library에서 설명합니다. 마지막으로  Client-side JavaScript의 근본적인 문제인 의존성및 복잡성 관리를 위한 Bundler개념및 ES6의 모듈에 대해 살펴볼 예정입니다.
+          </p>
+      </td>
+    </tr>
+    <tr>
+      <td>
+          <p>
+              <span class="lead">Implementing HTTP Protocol in Go</span>&nbsp;&nbsp;by 배진수님 <i class="text-muted">Junior in Computer Science Department, Sejong University</i></span>
+          </p>
+          <p>
+          추후 업데이트 예정입니다.
+          </p>
+      </td>
     </tr>
 </tbody>
 </table>
