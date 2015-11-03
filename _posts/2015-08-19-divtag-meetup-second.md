@@ -23,7 +23,7 @@ author: "hiun"
 
 지난해 10월 최초로 [제 1회 divtag 개발자 모임](/first-meetup)을 개최하였으며, 앞으로도 더욱 심오한 기술적 지식을 공유하는 outlier들의 장이 되었으면 합니다.
 
-###발표 주제
+###일정
 
 <table class="table table-striped">
 <thead>
@@ -31,8 +31,19 @@ author: "hiun"
 <tbody>
     <tr>
       <td>
+        <span class="lead">참가 등록</span>&nbsp;&nbsp;by <span class="divtag">&lt;divtag&gt;</span> 회원<span style="font-weight: bold; float: right;">6:00 ~ 6:30</span>
+      </td>
+    </tr>
+    <tr>
+      <td>
+        <span class="lead">소개</span>&nbsp;&nbsp;by <span class="divtag">&lt;divtag&gt;</span> 회원<span style="font-weight: bold; float: right;">6:30 ~ 6:45</span>
+      </td>
+    </tr>
+
+    <tr>
+      <td>
           <p>
-              <span class="lead">JavaScript Web Applications</span>&nbsp;&nbsp;by 김희언님 <i class="text-muted">Sophomore in Computer Science, Sejong University</i></span>
+              <span class="lead">JavaScript Web Applications</span>&nbsp;&nbsp;by 김희언님 <i class="text-muted">Sophomore in Computer Science, Sejong University</i><span style="font-weight: bold; float: right;">6:45 ~ 7:15</span>
           </p>
           <p>
           모던 웹은 stateless한 HTTP상의 클라언트 서버 모델을 기반으로 점점 더 애플리케이션의 형태를 띄며 전통적으로 데스크탑의 영역이라 여겨졌던 오피스를 비롯하여 게임등을 침범하고 있는것은 어제 오늘 일이 아닙니다. 또한 Gmail, Facebook이나 Twitter와 같은 웹서비스는 그 자체로 애플리케이션이라 부를정도로 풍부한 기능을 담아 과거 데스크탑 클라이언트에서만 가능했던 일들을 웹에서 진행하고 있습니다.
@@ -45,10 +56,26 @@ author: "hiun"
     <tr>
       <td>
           <p>
-              <span class="lead">Go lang 하나부터 백만까지</span>&nbsp;&nbsp;by 배진수님 <i class="text-muted">Junior in Computer Science, Sejong University</i></span>
+              <span class="lead">Go lang 하나부터 백만까지</span>&nbsp;&nbsp;by 배진수님 <i class="text-muted">Junior in Computer Science, Sejong University</i><span style="font-weight: bold; float: right;">7:15 ~ 7:45</span>
           </p>
           <p>
 Go 언어는 비교적 역사가 짧지만 빠른 속도, 안정성, 생산성이 높은 강한 언어입니다. C언어가 불(fire)이라면 Go 언어는 석유같은 존재입니다. 제가 그동안 애용 해오던 오래된 프로그래밍 언어인 C와는 무엇이 다른지, 그리고 최근에 어플리케이션 개발에 많이 사용되는 다른 언어들(C++, C#, Java, etc.)과는 또 어떻게 다른지 저의 삽질기를 통해서 간단하게 알아보는 시간을 가지겠습니다.
+          </p>
+      </td>
+    </tr>
+    <tr>
+      <td>
+        <span class="lead">네트워킹 및 휴식</span>&nbsp;&nbsp;by 참가자 및 발표자<span style="font-weight: bold; float: right;">7:45 ~ 8:00</span>
+      </td>
+    </tr>
+
+    <tr>
+      <td>
+          <p>
+              <span class="lead">"about:nw.js"</span>&nbsp;&nbsp;by 황찬욱님 <i class="text-muted">Sophomore in Computer Science, Sejong University</i><span style="font-weight: bold; float: right;">8:00 ~ 8:30</span>
+          </p>
+          <p>
+Node.js 모듈을 웹에서 사용할 수 있게 함으로써 진보한 웹 기술을 데스크탑 프로그램 개발에 사용할 수 있으며, 크로스 플랫폼 지원이 가능한 Node.js기반의 클라이언트 제작 툴인 nw.js를 소개합니다.
           </p>
       </td>
     </tr>
