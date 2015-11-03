@@ -31,7 +31,7 @@ author: "hiun"
 <tbody>
     <tr>
       <td>
-        <span class="lead">참가 등록</span>&nbsp;&nbsp;by <span class="divtag">&lt;divtag&gt;</span> 회원<span style="font-weight: bold; float: right;">6:00 ~ 6:30</span>
+        <span class="lead">참가 등록</span>&nbsp;&nbsp;by <span class="divtag">&lt;divtag&gt;</span> 회원<span style="font-weight: bold; float: right;">6:15 ~ 6:30</span>
       </td>
     </tr>
     <tr>
