@@ -1,11 +1,12 @@
 ---
 layout: post
-title:  "[Call for Speakers] 제 2회 divtag 개발자 모임"
+title:  "제 2회 divtag 개발자 모임"
 date:   2015-08-19 01:29:10
 permalink: /second-meetup
 categories: "post"
 author: "hiun"
 ---
+<!--
 <br>
 <div class="panel panel-primary">
       <div class="panel-heading">
@@ -17,7 +18,8 @@ author: "hiun"
     </div>
 </div>
 <br>
-<img src="../img/post/second-meetup.jpg" alt="first meetup" class="img-responsive img-rounded" style="width: 100%">
+-->
+<img src="/img/post/second-meetup.jpg" alt="first meetup" class="img-responsive img-rounded" style="width: 100%">
 
 소프트웨어 개발에 관심있는 학생들이 자신이 경험한 기술을 공유하고, 그것으로 만든 제품을 소개하며, 다양한 분야의 지식을 습득을 위한 관계자들의 모임을 목표로 하는 'divtag 개발자 모임' 입니다.
 
@@ -31,12 +33,7 @@ author: "hiun"
 <tbody>
     <tr>
       <td>
-        <span class="lead">참가 등록</span>&nbsp;&nbsp;by <span class="divtag">&lt;divtag&gt;</span> 회원<span style="font-weight: bold; float: right;">6:15 ~ 6:30</span>
-      </td>
-    </tr>
-    <tr>
-      <td>
-        <span class="lead">소개</span>&nbsp;&nbsp;by <span class="divtag">&lt;divtag&gt;</span> 회원<span style="font-weight: bold; float: right;">6:30 ~ 6:45</span>
+        <span class="lead">참가등록 및 소개말</span>&nbsp;&nbsp;by divtag 회원<span style="font-weight: bold; float: right;">6:30 ~ 6:45</span>
       </td>
     </tr>
 
@@ -49,7 +46,7 @@ author: "hiun"
           모던 웹은 stateless한 HTTP상의 클라언트 서버 모델을 기반으로 점점 더 애플리케이션의 형태를 띄며 전통적으로 데스크탑의 영역이라 여겨졌던 오피스를 비롯하여 게임등을 침범하고 있는것은 어제 오늘 일이 아닙니다. 또한 Gmail, Facebook이나 Twitter와 같은 웹서비스는 그 자체로 애플리케이션이라 부를정도로 풍부한 기능을 담아 과거 데스크탑 클라이언트에서만 가능했던 일들을 웹에서 진행하고 있습니다.
           </p>
           <p>
-          본 발표에서는 위에서 서비스들의 공통점인 JavaScript를 이용한 Single Page Application에 구조에 대해 살펴보고, Client-side JavaScript에서의 HTML랜더링 관리를 위해 React Library에서 설명합니다. 마지막으로  Client-side JavaScript의 근본적인 문제인 의존성및 복잡성 관리를 위한 Bundler개념및 ES6의 모듈에 대해 살펴볼 예정입니다.
+          본 발표에서는 위에서 서비스들의 공통점인 JavaScript를 이용한 Single Page Application의 구조에 대해 살펴보고, Client-side JavaScript에서의 HTML랜더링 관리를 위해 React Library에서 설명합니다. 마지막으로  Client-side JavaScript의 근본적인 문제인 의존성및 복잡성 관리를 위한 Bundler개념및 ES6의 모듈에 대해 살펴볼 예정입니다.
           </p>
       </td>
     </tr>
@@ -87,15 +84,11 @@ Node.js 모듈을 웹에서 사용할 수 있게 함으로써 진보한 웹 기�
 
 2015년 11월 12일 목요일 / 늦은 6시 30분 / 세종대학교 율곡관 201호
 
-<a href="../static/events/divtag-september-2015.ics"><button type="button" class="btn btn-info">내 캘린더에 이벤트 저장하기</button></a>
+<a href="../static/events/divtag-november-2015.ics"><button type="button" class="btn btn-info">내 캘린더에 이벤트 저장하기</button></a>
 
 <br>
 
 <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3163.1378411895407!2d127.07404389999999!3d37.55181610000001!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x357ca4d04ef3d389%3A0x322585c169b1b2bf!2z7ISc7Jq47Yq567OE7IucIOq1sOyekOuPmSDshLjsooXrjIDtlZnqtZAg7Jyo6rOh6rSA!5e0!3m2!1sen!2skr!4v1412131606053" width="290" height="290" frameborder="0" style="border:0"></iframe>
-
-###등록
-
-추후 업데이트 예정입니다.
 
 ###문의처
 
@@ -103,4 +96,4 @@ contact@divtag.sejong.edu
 
 ###홍보물
 
-추후 업데이트 예정입니다.
+<img src="/img/post/second-meetup-poster.png" alt="second-meetup-poster" style="width: 500px;">
