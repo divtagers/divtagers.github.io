@@ -96,4 +96,4 @@ contact@divtag.sejong.edu
 
 ###홍보물
 
-<img src="/img/post/second-meetup-poster.png" alt="second-meetup-poster" style="width: 500px;">
+<img src="/img/post/second-meetup-poster.png" alt="second-meetup-poster" style="width: 100%;">
