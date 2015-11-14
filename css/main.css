@@ -61,6 +61,17 @@ code {
   }
 }
 
+/* speakerdeck css */
+.speakerdeck {
+  width: 50%;
+}
+
+@media (max-width: 991px) {
+  .speakerdeck {
+    width: auto;
+  }
+}
+
 /* icon css */
 
 #dnsever {

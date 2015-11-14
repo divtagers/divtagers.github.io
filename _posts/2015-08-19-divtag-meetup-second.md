@@ -45,7 +45,10 @@ author: "hiun"
           <p>
 Node.js 모듈을 웹에서 사용할 수 있게 함으로써 진보한 웹 기술을 데스크탑 프로그램 개발에 사용할 수 있으며, 크로스 플랫폼 지원이 가능한 Node.js기반의 클라이언트 제작 툴인 nw.js를 소개합니다.
           </p>
-          <p><a href="../static/docs/divtag-november-2015-nw-js.pdf"><button type="button" class="btn btn-success">발표자료 보기</button></a></p>
+          <div class="speakerdeck">
+            <script async class="speakerdeck-embed" data-id="786b3118dfc44310a5053e6a23dd5ae7" data-ratio="1.77777777777778" src="//speakerdeck.com/assets/embed.js"></script>
+          </div>
+          <p><a href="../static/docs/divtag-november-2015-nw-js.pdf"><button type="button" class="btn btn-success">발표자료 다운로드</button></a></p>
       </td>
     </tr>
 
@@ -57,7 +60,10 @@ Node.js 모듈을 웹에서 사용할 수 있게 함으로써 진보한 웹 기�
           <p>
 Go 언어는 비교적 역사가 짧지만 빠른 속도, 안정성, 생산성이 높은 강한 언어입니다. C언어가 불(fire)이라면 Go 언어는 석유같은 존재입니다. 제가 그동안 애용 해오던 오래된 프로그래밍 언어인 C와는 무엇이 다른지, 그리고 최근에 어플리케이션 개발에 많이 사용되는 다른 언어들(C++, C#, Java, etc.)과는 또 어떻게 다른지 저의 삽질기를 통해서 간단하게 알아보는 시간을 가지겠습니다.
           </p>
-          <p><a href="../static/docs/divtag-november-2015-go-lang.pdf"><button type="button" class="btn btn-success">발표자료 보기</button></a></p>
+          <div class="speakerdeck">
+            <script async class="speakerdeck-embed" data-id="b4b07dcbcce6410b8ea17b5c0bdc7ccd" data-ratio="1.33333333333333" src="//speakerdeck.com/assets/embed.js"></script>
+          </div>
+          <p><a href="../static/docs/divtag-november-2015-go-lang.pdf"><button type="button" class="btn btn-success">발표자료 다운로드</button></a></p>
       </td>
     </tr>
     <tr>
@@ -77,7 +83,10 @@ Go 언어는 비교적 역사가 짧지만 빠른 속도, 안정성, 생산성�
           <p>
           본 발표에서는 위에서 서비스들의 공통점인 JavaScript를 이용한 Single Page Application의 구조에 대해 살펴보고, Client-side JavaScript에서의 HTML랜더링 관리를 위해 React Library에서 설명합니다. 마지막으로  Client-side JavaScript의 근본적인 문제인 의존성및 복잡성 관리를 위한 Bundler개념및 ES6의 모듈에 대해 살펴볼 예정입니다.
           </p>
-          <p><a href="../static/docs/divtag-november-2015-js-web-apps.pdf"><button type="button" class="btn btn-success">발표자료 보기</button></a></p>
+          <div class="speakerdeck">
+            <script async class="speakerdeck-embed" data-id="3738e2db48d7496eb2ccbcdd21e1284f" data-ratio="1.33333333333333" src="//speakerdeck.com/assets/embed.js"></script>
+          </div>
+          <p><a href="../static/docs/divtag-november-2015-js-web-apps.pdf"><button type="button" class="btn btn-success">발표자료 다운로드</button></a></p>
       </td>
     </tr>
 </tbody>
