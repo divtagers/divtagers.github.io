@@ -40,15 +40,11 @@ author: "hiun"
     <tr>
       <td>
           <p>
-              <span class="lead">"about:nw.js"</span>&nbsp;&nbsp;by 황찬욱님 <i class="text-muted">Sophomore in Computer Science, Sejong University</i><span style="font-weight: bold; float: right;">PM 6:45 ~ 7:15</span>
+              <span class="lead">"about:nw.js"</span>&nbsp;&nbsp;<span style="font-weight: bold; float: right;">PM 6:45 ~ 7:15</span>
           </p>
           <p>
 Node.js 모듈을 웹에서 사용할 수 있게 함으로써 진보한 웹 기술을 데스크탑 프로그램 개발에 사용할 수 있으며, 크로스 플랫폼 지원이 가능한 Node.js기반의 클라이언트 제작 툴인 nw.js를 소개합니다.
           </p>
-          <div class="speakerdeck">
-            <script async class="speakerdeck-embed" data-id="786b3118dfc44310a5053e6a23dd5ae7" data-ratio="1.77777777777778" src="//speakerdeck.com/assets/embed.js"></script>
-          </div>
-          <p><a href="../static/docs/divtag-november-2015-nw-js.pdf"><button type="button" class="btn btn-success">발표자료 다운로드</button></a></p>
       </td>
     </tr>
 
