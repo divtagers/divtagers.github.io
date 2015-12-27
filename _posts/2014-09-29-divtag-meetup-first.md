@@ -17,7 +17,7 @@ divtag 개발자 모임의 목적은 프로그래밍에 관심있는 학생들�
 
 ###발표 주제
 
-**Node.js를 웹 프레임워크 이외의 용도로 사용하기 by 황찬욱**
+**Node.js를 웹 프레임워크 이외의 용도로 사용하기 by Hwang, C. W.**
 
 [Node.js](http://nodejs.org)는 그 정의에도 Scalable한 Network Application을 만드는데 강점을 가지고 있고 합니다. 이러한 WAS용도로 Node.js를 사용하지 않고 다양하게 가지고 놀아본 이야기를 해볼 생각입니다.
 
@@ -32,7 +32,7 @@ Node.js의 등장으로 JavaScript를 사용하여 복잡한 Business Logic을 �
 
 <br>
 
-**모바일 학생증의 취약점 분석 by 황찬욱**
+**모바일 학생증의 취약점 분석 by Hwang, C. W.**
 
 최근 본 모임의 [제보](https://www.facebook.com/photo.php?fbid=501881023282569&set=a.134498483354160.26848.100003820279887)로 우리대학 모바일 학생증의 문제가 세종대 신문에 보도되었습니다. 이에 대해 이야기해볼 생각입니다.
 
