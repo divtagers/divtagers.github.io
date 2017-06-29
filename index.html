@@ -10,7 +10,7 @@ type: home
   	<p><span class="divtag">&lt;divtag&gt;</span>는 컴퓨터와 관련된 분야에 관심을 가진 학생들이 모여 연구, 개발을 하기 위한 목적으로 만들어진 동아리입니다.</p> 
   	<p>컴퓨터 분야는 우리 세대에서 그 무엇보다도 빠르게 발전하고 있으며, 미래에 가장 큰 영향을 미칠 수 있는 분야 중 하나입니다. 우리 학교에서 컴퓨터 분야의 연구, 개발에 관심이 있는 학생이 있다면 환영합니다.</p>
     <p class="lead">News</p>
-    <table class="table table-striped">
+    <table class="table">
        <tbody>
           {% for post in site.categories.post limit:3 %}
               <tr>
@@ -25,7 +25,7 @@ type: home
       </tbody>
     </table>
     <p class="lead">Opinions</p>
-    <table class="table table-striped">
+    <table class="table">
        <tbody>
           {% for post in site.categories.opinion limit:3 %}
               <tr>

@@ -53,6 +53,14 @@ code {
   font-size: 80%;
 }
 
+/* navbar active default override */
+
+.navbar-default .navbar-nav>.active>a, 
+.navbar-default .navbar-nav>.active>a:hover, 
+.navbar-default .navbar-nav>.active>a:focus {
+  background: #f5f5f5;
+}
+
 /* mobile only CSS */
 
 @media (max-width: 991px) {
